@@ -19,8 +19,8 @@ const sendEmail = (t,name) => {
         service:"Gmail",
         
         auth: {
-          user: "pksivakumar2000@gmail.com",
-          pass: "danielraj",
+          user: "mailid@yahoo.com",
+          pass: "password",
         },tls:{
             rejectUnauthorized:false
         }
@@ -32,7 +32,7 @@ const sendEmail = (t,name) => {
     //     </div>`
 
       Transport.sendMail({
-        from: "pksivakumar2000@gmail.com",
+        from: "mailid@yahoo.com",
         to: t,
         subject: "Cryon security registeration completed",
         text: `<h1>you are successfully registered</h1>`,
